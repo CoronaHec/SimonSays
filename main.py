@@ -9,6 +9,8 @@ clock = pygame.time.Clock()
 SCREEN_WIDTH = 500
 SCREEN_HEIGHT = 500
 
+score = 0
+
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 GREEN_ON = (0, 255, 0)
@@ -109,8 +111,6 @@ def player_turn():
                     check_sequence(players_sequence) # check if player choice was correct
                     turn_time = time.time() # reset timer
                     
-
-
     # If player does not select a button within 3 seconds then the game closes
     if not time.time() <= turn_time + 3:
         game_over()

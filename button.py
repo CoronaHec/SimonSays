@@ -24,6 +24,10 @@ class Button(pygame.sprite.Sprite):
         # blit image below
         screen.blit(self.image, (self.rect.x, self.rect.y))
 
+    """
+    This is a 
+    multiline comment
+    """
     def selected(self, mouse_pos):
         # check if the button was selected. Pass in mouse_pos
         if self.rect.collidepoint(mouse_pos):
