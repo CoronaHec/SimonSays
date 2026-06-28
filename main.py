@@ -21,14 +21,14 @@ YELLOW_ON = (255, 255, 0)
 YELLOW_OFF = (227, 227, 0)
 
 # Pass in respective sounds for each color
-#GREEN_SOUND = pygame.mixer.Sound("bell1.mp3") # bell1
-#RED_SOUND = pygame.mixer.Sound("bell1.mp3") # bell2
-#BLUE_SOUND = pygame.mixer.Sound("bell1.mp3") # bell3
-#YELLOW_SOUND = pygame.mixer.Sound("bell1.mp3") # bell4
-GREEN_SOUND = None
-BLUE_SOUND = None
-RED_SOUND = None
-YELLOW_SOUND = None
+GREEN_SOUND = pygame.mixer.Sound("bell1.mp3") # bell1
+RED_SOUND = pygame.mixer.Sound("bell1.mp3") # bell2
+BLUE_SOUND = pygame.mixer.Sound("bell1.mp3") # bell3
+YELLOW_SOUND = pygame.mixer.Sound("bell1.mp3") # bell4
+#GREEN_SOUND = None
+#BLUE_SOUND = None
+#RED_SOUND = None
+#YELLOW_SOUND = None
 
 
 #Button Sprite Objects
