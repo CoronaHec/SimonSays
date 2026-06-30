@@ -21,7 +21,7 @@ class Button(pygame.sprite.Sprite):
         self.clicked = False
 
     def draw(self, screen):
-        # blit image below
+        # blit image below 
         screen.blit(self.image, (self.rect.x, self.rect.y))
 
     """
