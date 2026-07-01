@@ -30,7 +30,6 @@ YELLOW_SOUND = pygame.mixer.Sound("bell1.mp3") # bell4
 #RED_SOUND = None
 #YELLOW_SOUND = None
 
-
 #Button Sprite Objects
 green = Button(GREEN_ON, GREEN_OFF, GREEN_SOUND, 10, 10)
 red = Button(RED_ON, RED_OFF, RED_SOUND, 260, 10)
@@ -43,7 +42,7 @@ cpu_sequence = []
 choice = ""
 
 def draw_board():
-    # Call the draw method on all four button objects
+    # Call the draw method on all four button object
     green.draw(SCREEN)
     red.draw(SCREEN)
     blue.draw(SCREEN)
