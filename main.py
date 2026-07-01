@@ -9,8 +9,6 @@ clock = pygame.time.Clock()
 SCREEN_WIDTH = 500
 SCREEN_HEIGHT = 500
 
-score = 0
-
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 GREEN_ON = (0, 255, 0)
